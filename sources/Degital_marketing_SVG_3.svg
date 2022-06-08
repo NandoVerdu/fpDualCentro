@@ -250,7 +250,16 @@
          ry="4.4200001"
          transform="rotate(-30,198.96528,22.372587)"
          id="ellipse1275"
-         style="stroke-width:0.861356" />
+         style="stroke-width:0.861356">
+          <animate
+           attributeName="fill"
+           attributeType="XML"
+           dur="4s"
+           values="#fff;green"
+           calcMode="discrete"
+           repeatCount="indefinite"
+           begin="1s" />
+         </ellipse>
       <ellipse
          class="cls-7"
          cx="223.07001"
@@ -259,7 +268,16 @@
          ry="4.4200001"
          transform="matrix(0.87,-0.5,0.5,0.87,11.74,116.4)"
          id="ellipse1277"
-         style="stroke-width:0.861356" />
+         style="stroke-width:0.861356">
+         <animate
+           attributeName="fill"
+           attributeType="XML"
+           dur="4s"
+           values="#fff;orange"
+           calcMode="discrete"
+           repeatCount="indefinite"
+           begin="1s" />
+         </ellipse>
       <ellipse
          class="cls-7"
          cx="211.00999"
@@ -268,7 +286,16 @@
          ry="4.4200001"
          transform="rotate(-30,211.01782,29.342055)"
          id="ellipse1279"
-         style="stroke-width:0.861356" />
+         style="stroke-width:0.861356">
+         <animate
+           attributeName="fill"
+           attributeType="XML"
+           dur="4s"
+           values="#fff;red"
+           calcMode="discrete"
+           repeatCount="indefinite"
+           begin="1s" />
+         </ellipse>
       <polygon
          class="cls-15"
          points="219.94,193.8 207.44,186.58 207.44,135.03 219.94,142.24 "
@@ -418,30 +445,67 @@
         <animate
            attributeName="fill"
            attributeType="XML"
-           dur="1s"
-           values="orange;blue"
+           dur="1.3s"
+           values="orange;#8c50ff"
+           calcMode="discrete"
            repeatCount="indefinite" />
       </polygon>
       <polygon
          class="cls-12"
          points="111.95,249.23 94.99,239.43 94.99,220.87 111.95,230.67 "
          id="polygon1327"
-         style="stroke-width:0.861356" />
+         style="stroke-width:0.861356">
+         <animate
+           attributeName="fill"
+           attributeType="XML"
+           dur="1.5s"
+           values="orange;#8c50ff"
+           calcMode="discrete"
+           repeatCount="indefinite"
+           begin=".35s" />
+         </polygon>
       <polygon
          class="cls-12"
          points="134.28,262.12 117.31,252.32 117.31,233.76 134.28,243.56 "
          id="polygon1329"
-         style="stroke-width:0.861356" />
+         style="stroke-width:0.861356" >
+         <animate
+           attributeName="fill"
+           attributeType="XML"
+           dur="4.31s"
+           values="orange;#8c50ff"
+           calcMode="discrete"
+           repeatCount="indefinite"
+           begin=".4s" />
+         </polygon>
       <polygon
          class="cls-12"
          points="156.6,275 139.64,265.21 139.64,246.65 156.6,256.44 "
          id="polygon1331"
-         style="stroke-width:0.861356" />
+         style="stroke-width:0.861356"> 
+         <animate
+           attributeName="fill"
+           attributeType="XML"
+           dur="3.31s"
+           values="orange;#8c50ff"
+           calcMode="discrete"
+           repeatCount="indefinite"
+           begin=".9s" />
+         </polygon>
       <polygon
          class="cls-12"
          points="111.95,277.07 94.99,267.27 94.99,248.71 111.95,258.51 "
          id="polygon1333"
-         style="stroke-width:0.861356" />
+         style="stroke-width:0.861356">
+         <animate
+           attributeName="fill"
+           attributeType="XML"
+           dur="2.31s"
+           values="orange;#8c50ff"
+           calcMode="discrete"
+           repeatCount="indefinite"
+           begin=".8s" />
+          </polygon>
       <polygon
          class="cls-12"
          points="134.28,289.96 117.31,280.16 117.31,261.6 134.28,271.4 "
@@ -456,12 +520,30 @@
          class="cls-12"
          points="111.95,304.91 94.99,295.11 94.99,276.55 111.95,286.35 "
          id="polygon1339"
-         style="stroke-width:0.861356" />
+         style="stroke-width:0.861356">
+         <animate
+           attributeName="fill"
+           attributeType="XML"
+           dur="5s"
+           values="orange;#8c50ff"
+           calcMode="discrete"
+           repeatCount="indefinite"
+           begin="1s" />
+          </polygon>
       <polygon
          class="cls-12"
          points="134.28,317.8 117.31,308 117.31,289.44 134.28,299.24 "
          id="polygon1341"
-         style="stroke-width:0.861356" />
+         style="stroke-width:0.861356"> 
+          <animate
+           attributeName="fill"
+           attributeType="XML"
+           dur="2s"
+           values="orange;#8c50ff"
+           calcMode="discrete"
+           repeatCount="indefinite"
+           begin=".8s" />
+         </polygon>
       <polygon
          class="cls-12"
          points="156.6,330.69 139.64,320.89 139.64,302.33 156.6,312.13 "
