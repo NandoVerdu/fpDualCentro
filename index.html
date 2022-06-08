@@ -4,20 +4,35 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Dual22-23_Centro</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
-
+		<link rel="stylesheet" href="dist/theme/serif.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<link rel="stylesheet" href="plugin/appearance/appearance.css">
+		
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<div class="r-hstack">
+						<img src="sources/Degital_marketing_SVG.svg" width="60%" height="auto" >
+					<div style="padding-left:45px ;" class="r-vstack">
+						<h2>FP DUAL</h2>
+						<h3 style="color:darkorange;background:#383D3D">2022-2023</h3>
+						<div class="r-hstack">
+						<div class="padded"><img class="animated flipInX" src="sources/fpdual.svg"></div>
+						
+						<div class="padded"><img class="animated flipInX" style="padding-left: 25px;" src="sources/fpdual3.svg"></div>
+					</div>
+					</div>
+					</div>
+				</section>
+				<section><h3>slide 2</h3></section>
 			</div>
 		</div>
 
@@ -25,15 +40,34 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/appearance/appearance.js"></script>		
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				transition:'none',
+				appearance: {
+					
+					delay: 300,
+					appearevent: 'slidechanged',
+					autoappear: true,
+					hideagain: true,
+					autoelements: {
+						'ul li': 'fadeInRight' ,
+						'p':'rubberBand',
+						'h3':'rollIn',
+						'h4':'heartBeat',
+						'span':'backInDown',
+						'blockquote': 'flipInX',
+						'h2':'heartBeat',
+						'h5':'swing',
+						'img':'flipInY'
+	}},
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Appearance ]
 			});
 		</script>
 	</body>
