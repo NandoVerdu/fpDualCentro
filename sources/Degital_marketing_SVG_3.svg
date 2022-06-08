@@ -34,7 +34,7 @@
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
-     inkscape:window-width="898"
+     inkscape:window-width="904"
      inkscape:window-height="695"
      inkscape:window-x="19"
      inkscape:window-y="13"
@@ -416,10 +416,11 @@
          id="polygon1325"
          style="stroke-width:44222.7">
         <animate
-           atributeName="fill"
-           atributeType="XML"
-           keyTimes="0;0.8;1"
-           dur="1s" />
+           attributeName="fill"
+           attributeType="XML"
+           dur="1s"
+           values="orange;blue"
+           repeatCount="indefinite" />
       </polygon>
       <polygon
          class="cls-12"
