@@ -31,8 +31,48 @@
 					</div>
 					</div>
 				</section>
-				<section data-transition="zoom" data-background-opacity="0.23" data-background-size="contain" data-background-image="sources/Degital_marketing_SVG_3.svg"><h3>slide 2</h3></section>
-				<!--https://raw.githubusercontent.com/NandoVerdu/fpDualCentro/dualFpCentro/sources/Degital_marketing_SVG_3.svg*-->
+				<section data-transition="zoom" data-background-opacity="0.25" data-background-size="contain" data-background-image="sources/Degital_marketing_SVG_3.svg">
+					<h3 style="color:#8c50ff">¿Por qué FP Dual?</h3>
+					<div class="r-hstack">
+						<div style="width:50%">
+							<h4  class="tit">Calidad e innovación educativa</h4>
+					<ul style="font-size:80%">
+						<li>Transferencia de conocimiento empresa-centro educativo</li>
+						<li>Proceso enseñanza más flexible</li>
+						<li>Motiva al alumnado y mejora su nivel formativo</li>
+						<li>Consolida la oferta formativa del centro</li>
+						<li>Potencia la innovación en el centro educativo</li>
+					</ul>
+				</div>
+				<div style="width:50%">
+					<h4  class="tit">Apuesta de futuro</h4>
+			<ul style="font-size:80%">
+				<li>Alumnado dispone de acceso a recursos y tecnologías que ofrecen las empresas</li>
+				<li>El profesorado se actualiza en cuanto a las competencias demandadas</li>
+				<li>Aumenta la empleabilidad de los estudiantes</li>
+				<li>La imagen y proyección del centro educativo se ve beneficiada</li>
+			</ul>
+		</div>
+					</div>
+				</section>
+				
+				<section data-state="norma" data-transition="zoom" data-background-opacity="0.25" data-background-size="contain" data-background-image="sources/Law firm-amico.svg">
+					<h3>Normativa</h3>
+					<iframe src="timeline.html" style="border:none;width:100%,height:100%" ></iframe>
+				</section>
+
+				<section>
+					
+				</section>
+				<style>
+					iframe {
+    display: block;       /* iframes are inline by default */
+    
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+				</style>
 			</div>
 		</div>
 
@@ -65,12 +105,23 @@
 						'blockquote': 'flipInX',
 						'h2':'heartBeat',
 						'h5':'swing',
-						'img':'flipInY'
+						'img':'flipInY',
+						
 	}},
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Appearance ]
 			});
 		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+		<script>
+			Reveal.addEventListener('norma', function(){
+  			TweenMax.from('#normativa', 3, {delay:1, scale:8, alpha:0, ease:'Back.easeOut',repeat:-1,yoyo:true}, 0.25);
+			});
+		</script>
+		<style>
+			.reveal .tit{color:#8c50ff}
+		</style>
 	</body>
 </html>
