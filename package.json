@@ -98,6 +98,7 @@
     }
   },
   "dependencies": {
+    "dayjs": "^1.11.3",
     "install": "^0.13.0",
     "npm": "^8.12.1",
     "reveal.js-appearance": "^1.1.1"
